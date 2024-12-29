@@ -1,3 +1,18 @@
+# Dependencies
 node_modules/
-dist/
-build/
+package-lock.json
+
+# Build outputs
+src/wasm/*.wasm
+src/wasm/*.js
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDE and OS files
+.DS_Store
+.vscode/
+*.swp
+*.swo
